@@ -8,7 +8,7 @@
    
    <remote name="hub" fetch="https://github.com"/>
 
-   <!-- Extras -->
+   <!-- ims -->
    <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="me" revision="thirteen" clone-depth="1"/>
    <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
