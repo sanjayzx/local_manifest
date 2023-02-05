@@ -7,7 +7,7 @@
    <remote name="lab" fetch="https://gitlab.com/ImSurajxD"/>
  
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="device_xiaomi_rosemary" remote="me" revision="lineage-20"/>
+   <project path="device/xiaomi/rosemary" name="device_xiaomi_rosemary" remote="me" revision="awaken-triton"/>
    
    <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="me" revision="lineage-20"/>
   
