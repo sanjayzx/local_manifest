@@ -29,7 +29,7 @@
    <!-- Hardware -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20"/>
    
-   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20"/>
+   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="me" revision="lineage-20"/>
    
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
