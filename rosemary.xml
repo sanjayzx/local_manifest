@@ -5,15 +5,13 @@
    <remote name="me" fetch="https://github.com/sanjayzx"/>
    
    <remote name="lab" fetch="https://gitlab.com/ImSurajxD"/>
-   
-   <remote name="hub" fetch="https://github.com"/>
  
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="me" revision="lineage-20"/>
+   <project path="device/xiaomi/rosemary" name="device_xiaomi_rosemary" remote="me" revision="lineage-20"/>
    
-   <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="me" revision="lineage-20"/>
+   <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="me" revision="lineage-20"/>
   
-   <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="me" revision="lineage-20"/>
+   <project path="vendor/xiaomi/rosemary" name="vendor_xiaomi_rosemary" remote="me" revision="lineage-20"/>
    
    <!-- MtkFMRadio -->
    <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/>
@@ -32,13 +30,6 @@
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20"/>
    
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20"/>
-   
-   <!-- ims -->
-   <remove-project name="android_frameworks_opt_net_ims"/>
-   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="me" revision="thirteen" clone-depth="1"/>
-   
-   <remove-project name="android_frameworks_opt_telephony" />
-   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="me" revision="thirteen" clone-depth="1"/>
    
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
